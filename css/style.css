@@ -1,0 +1,175 @@
+/*cuerpo de la pagina*/
+body {
+    background-image: url(../images/mosaico.jpg);
+    background-color: lightcyan;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+
+/*parte de arriba*/
+
+header {
+    padding: 10px;
+    text-align: center;
+}
+header h2{
+    font-size: 200%;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px lightskyblue;
+    padding: 20px 10px 15px 10px;
+}
+header p{
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px lightskyblue;
+    padding: 20px 10px 15px 10px;
+}
+
+/*Barra de navegacion*/
+
+nav {
+    overflow: hidden;
+    background-color: orange;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    float: left;
+    text-align: center;
+}
+nav a:hover {
+    background-color: lightcoral;
+    color: black;
+}
+
+/*pie de pagina*/
+footer {
+    position: fixed;
+    display: inline-block;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+}
+footer p {
+    padding: 30px;
+    text-align: center;
+    background-color: orange;
+    color: black;
+}
+
+/*Principal*/
+main {
+    padding: 50px 80px;
+}
+
+main h2{
+    color: black;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    font-size: 200%;
+    font-weight: bold;
+    text-align: left;
+    text-shadow: 2px 2px lightcoral;
+    padding: 20px 10px 15px 10px;
+    margin: 20px 30px;
+    text-decoration: underline lightskyblue;
+
+
+}
+
+.part1{
+    display: block;
+    text-align: left;
+    border-style: groove;
+    border-color: lightgrey;
+    border-radius: 10px;
+    padding: 20px 10px 15px 10px;
+    margin: 20px 30px;
+    background-color: lightcoral;
+    box-shadow: 10px 10px 5px lightblue;
+    font-weight: bold;
+}
+
+.formul{
+    text-align: left;
+    border: solid black 5px;
+    border-style: groove;
+    border-color: lightgrey;
+    border-radius: 10px;
+    padding: 20px 10px 15px 10px;
+    margin: 25px 500px 75px 500px;
+    background-color: lightblue;
+    box-shadow: 10px 10px 5px lightblue;
+    font-weight: bold;
+    text-align: left;
+}
+.formult{
+    color: aqua;
+    font-size: 300%;
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 5px red;
+    font-family: fantasy,'Times New Roman', Times, serif;
+}
+
+.tittle1{
+    font-size: 150%;
+}
+
+.doggy1{
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: 0px auto;
+    background-color: lightgreen;
+    box-shadow: 10px 10px 5px lightblue;
+    border: solid black 5px;
+    text-align: center;
+}
+
+.ListaA{
+    text-align: left;
+    border: solid black 5px;
+    padding: 20px 10px 15px 10px;
+    margin: 20px 30px;
+    background-color: lightgreen;
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+.textsize1{
+    font-size: 120%;
+
+}
+
+div.gallery {
+    background-color: lightblue;
+    border-style: groove;
+    border-color: lightgrey;
+    border-radius: 10px;
+    margin: 20px 30px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    clear: none;
+}
+  
+div.gallery:hover {
+    border: 1px solid #777;
+}
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+  
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+
